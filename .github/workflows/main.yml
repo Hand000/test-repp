@@ -21,7 +21,7 @@ jobs:
       - name: Push to Repo
         run: |
           git config user.name github-actions
-          git congig user.email example@github.com
+          git config user.email example@github.com
           git add . 
           git commit -m "Updated feed"
           git push
